@@ -1,6 +1,6 @@
 {
-  "name": "com.phonegap.hello",
-  "displayName": "Hello",
+  "name": "com.phonegap.helloworld",
+  "displayName": "Hello World",
   "version": "1.0.0",
   "description": "A sample Apache Cordova application that responds to the deviceready event.",
   "main": "index.js",
@@ -11,5 +11,8 @@
     "ecosystem:cordova"
   ],
   "author": "Apache Cordova Team",
-  "license": "Apache-2.0"
+  "license": "Apache-2.0",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
