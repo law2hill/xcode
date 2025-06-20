@@ -1,11 +1,12 @@
-const express = require('express');
+const express = require("express");
 const app = express();
-const PORT = process.env.PORT || 10000;
 
-app.get('/', (req, res) => {
-    res.send('Hello, World!');
+const PORT = process.env.PORT || 8000;
+
+app.get("/", (req, res) => {
+  res.send("Render Puppeteer server is up and running!");
 });
 
 app.listen(PORT, () => {
-    console.log(`Server is running on http://localhost:${PORT}`);
+  console.log(`Listening on port ${PORT}`);
 });
